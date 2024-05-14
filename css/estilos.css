@@ -1,0 +1,269 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+} 
+
+body{
+    background-color: rgb(254, 223, 252);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.container{
+    background-color: #fff;
+    width: 56%;
+    height: 1770px;
+    display: block;
+    align-items: center;
+    margin-top: 80px;
+    border-radius: 30px;
+    margin-bottom: 130px;
+}
+
+.Principal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.image-omelette img{
+    margin-top: 50px;
+    width: 670px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.title-principal{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    margin-left: 40px;
+    font-size: 2.5rem;
+    color: #1c1c1c;
+    font-family: serif;
+}
+
+.paragraph-principal{
+    margin-top: 10px;
+    margin-left: 40px;
+    font-family: Quicksand;
+}
+
+.preparation{
+    justify-content: center;
+    margin-top: 30px;
+    display: flex;
+    width: 90%;
+    height: 20%;
+    margin-left: 40px;
+    background-color: rgb(253, 248, 241);
+    border-radius: 20px;
+}
+
+.title-preparation h1{
+    font-family: Quicksand;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 15px;
+    width: 600px;
+    display: flex;
+    color: rgb(98, 0, 98);
+}
+
+ul{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+li::marker{
+    color: rgb(98, 0, 98);
+    
+}
+
+span{
+    font-family: Quicksand;
+    color: rgb(88, 88, 88);
+    font-weight: 700;
+}
+
+.Ingredients{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-ingredients{
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 40px;
+    color: #634444;
+    font-family: Work+Sans;
+}
+
+.title{
+    font-size: 1.6rem;
+}
+
+.list-ingredients{
+    width: 100%;
+    
+}
+ul{
+    width: 100%;
+    font-family: Quicksand;
+}
+
+.underlined{
+    margin-top: 20px;
+    width: 90%;
+    height: 1px;
+    background-color: rgba(162, 162, 162, 0.897);
+    margin-left: 40px;
+}
+
+.Instructions{
+    width: 100%;
+}
+
+.title-instructions{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 94%;
+    font-size: 1.6rem;
+    color: #634444;
+}
+
+ol{
+    width: 89%;
+    margin-left: 60px;
+    font-weight: 600;
+    font-family: Quicksand;
+    margin-top: 10px;
+}
+
+.list-instructions{
+    width: 100%;
+    color: rgb(80, 79, 79);
+}
+
+.Nutrition{
+    width: 100%;
+}
+
+.title-nutrition{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 94%;
+    font-size: 1.6rem;
+    color: #634444;
+}
+
+.paragraph-nutrition{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: Quicksand;
+}
+
+.underlined-table{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 94%;
+    height: 1px;
+    background-color: rgba(162, 162, 162, 0.897);
+    margin-left: 1px;
+}
+
+.table{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.title-table{
+    font-family: Quicksand;
+    
+    
+}
+
+.title-calorie{
+    display: flex;
+    
+}
+
+.title-calorie h4{
+    width: 50%;
+    font-family: Quicksand;
+    font-weight: 400;
+    
+}
+
+.title-calorie p{
+    font-family: Quicksand;
+    color: #634444;
+    font-weight: 800;
+}
+
+.title-carbs{
+    display: flex;
+}
+
+.title-carbs h4{
+    width: 50%;
+    font-family: Quicksand;
+    font-weight: 400;
+}
+
+.title-carbs p{
+    font-family: Quicksand;
+    color: #634444;
+    font-weight: 800;
+}
+
+.title-protein{
+    display: flex;
+}
+
+.title-protein h4{
+    width: 50%;
+    font-family: QUicksand;
+    font-weight: 400;
+}
+
+.title-protein p{
+    font-family: Quicksand;
+    color: #634444;
+    font-weight: 800;
+}
+
+.title-fat{
+    display: flex;
+}
+
+.title-fat h4{
+    width: 50%;
+    font-family: Quicksand;
+    font-weight: 400;
+}
+
+.title-fat p{
+    font-family: Quicksand;
+    color: #634444;
+    font-weight: 800;
+}
