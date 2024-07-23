@@ -1,0 +1,28 @@
+@media (max-width : 768px){
+
+    .container {
+        width: 100%; 
+        border-radius: 0; 
+
+
+
+    .image-omelette img{
+        margin-top: 50px;
+        width: 60%;
+        border-radius: 10px;
+    }
+}
+    body{
+        margin:0%;
+        background-color: #fff;
+    
+    }
+    .preparation .tilte-preparation h1{
+        
+        
+        margin-left: 80px;
+        
+    }
+
+    }
+
